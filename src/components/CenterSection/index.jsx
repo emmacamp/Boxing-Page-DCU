@@ -6,19 +6,15 @@ function index() {
     return (
         <div className='d-flex'>
             <div className="box-left w-50">
-                <h3>Center Section</h3>
-                <p className='text-justify text-secondary'>
-                    El boxeo (del inglés boxing), también llamado a veces2​ boxeo inglés, boxeo irlandés o pugilismo, y comúnmente conocido como box, es un deporte de contacto en el que dos contrincantes luchan utilizando únicamente sus puños con guantes, golpeando a su adversario de la cintura hacia arriba, dentro de un cuadrilátero especialmente diseñado para tal fin; la pelea se lleva a cabo en breves secuencias de lucha denominadas asaltos y de acuerdo a un preciso reglamento, el cual regula categorías de pesos y duración del encuentro, entre otros aspectos.
-                    <br />
-                    <br />
-                    Aunque el término "boxeo" comúnmente se atribuye al "boxeo inglés", en el que solo intervienen los puños, el boxeo se ha desarrollado de diversas formas en diferentes áreas geográficas y culturas.
+                <h2>¿En qué consiste?</h2>
+                <p className='text-justify text-secondary fs-5 lh-lg'>
+                    El boxeo es un deporte de contacto y combate que se practica dentro de un cuadrilátero, en donde dos personas luchan y se enfrentar en un duelo utilizando únicamente sus puños, los cuales a su vez, deberán de permanecer cubiertos por unos guantes durante todo el encuentro.
                 </p>
+                <a href="#">más información...</a>
             </div>
             <div className="box-right w-50 m-auto d-flex justify-content-center">
                 <img src={img} alt="" />
-
             </div>
-
         </div>
     )
 }

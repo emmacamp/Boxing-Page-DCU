@@ -1,12 +1,21 @@
 import React from 'react'
 import Navbar from '../NavBar'
-// import { } from '@mui/material'
-// import Card1 from '../Cards/Card1'
 import CardsContainer from '../Cards/CardsContainer'
 import Carrousel from '../Carrousel'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Footer from '../Footer'
 import CenterSection from '../CenterSection'
+import RingSection from '../RingSection'
+import Form from '../Form'
+
+const Section = ({ title = '', children }) => {
+    return (
+        <div>
+            <h1>{title}</h1>
+            {children}
+        </div>
+    )
+}
+
 
 function Home() {
     return (
@@ -15,22 +24,16 @@ function Home() {
                 <div style={{ margin: '10px' }}>
                     <Navbar />
                     <section >
-                        {/* <h1>Welcome Boking World</h1> */}
                         <Carrousel />
                         <CardsContainer />
                     </section>
-                    <section>
-                        <h1>Section 2</h1>
-                        <CenterSection />
-
-                    </section>
-                    <section >
-                        <h1>Section 3</h1>
-                        <CardsContainer />
-                    </section>
+                    <Section title='Section 2' children={<CenterSection />} />
+                    <Section title='Section 3' children={<CardsContainer />} />
+                    <Section title='Section 4' children={<RingSection />} />
+                    <Section title='Section 5' children={<Form />} />
                 </div>
             </div>
-            <footer style={{}}>
+            <footer >
                 <Footer />
             </footer>
         </>

@@ -6,10 +6,10 @@ function Card1({ title, text, img }) {
             <Card.Img variant="top" src={img} />
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
-                <Card.Text>
-                    {text}
+                <Card.Text >
+                    <p className='text-justify text-secondary fs-6 lh-sm'>{text}</p>
                 </Card.Text>
-                <Button variant="primary">See more</Button>
+                <Button variant="primary">More info</Button>
             </Card.Body>
         </Card>
     );
