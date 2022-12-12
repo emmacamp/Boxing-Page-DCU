@@ -6,12 +6,12 @@ function CardsContainer() {
         <div className="container d-flex ml-100 flex-wrap">
             <Card1
                 title={'Guantes de Boxeo'}
-                text={`Se utilizan como medio de protección y recubren las manos de los boxeadores. Tienen también la función de suavizar un poco el golpe durante el combate reduciendo así la cantidad de heridas en el rostro.`}
+                text={`Se utilizan como medio de protección y recubren las manos de los boxeadores. Tienen también la función de suavizar un poco el golpe durante el combate reduciendo así la cantida...`}
                 img={'https://imgs.search.brave.com/JI4UQ5MPUxzAYDQM4FEnwA53Ttzn6jobInbvzLvznJY/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/aW1wYWN0b21lcmNl/ZGVzLmNvbS5hci93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8w/NS9sZW9uZS0xOTQ3/LWd1YW50ZXMtZGUt/Ym94ZW8tbW9kZWxv/LWZsYXNoLW5lZ3Jv/LW5lZ3JvLXRhbGxh/MTQtb3otMTUzNngx/NTM2LmpwZw'}
             />
             <Card1
                 title={'Protector bucal'}
-                text={'El protector bucal de boxeo es una funda dental realizada en goma flexible, además de ser una protección para la boc a, la mandíbula y huesos de la cara, también, gracias a la postura que toma la mandíbula, alejada de la b...'}
+                text={'El protector bucal de boxeo es una funda dental realizada en goma flexible, además de ser una protección para la boc a, la mandíbula y huesos de la cara, también, gracias a la postura qu...'}
                 img={'https://imgs.search.brave.com/Bkgo5tKbpKrlTG9D_UXDzpT1fRiQDUsG0QMVwz3SUhA/rs:fit:993:993:1/g:ce/aHR0cHM6Ly93d3cu/dmVudGEtZGUuY29t/LmNvL3NoLWltZy9w/cm90ZWN0b3ItYnVj/YWwtZXZlcmxhc3Qt/c2ltcGxlLWJveGVv/LW1tYS1hcnRlcy1t/YXJjaWFsZXMtMTY1/MDgtTUxBMjAxMjE5/NTA1NThfMDcyMDE0/LU9fcHJvdGVjdG9y/JTJCYnVjYWwlMkJl/dmVybGFzdC5qcGc'}
             />
             <Card1
@@ -21,7 +21,7 @@ function CardsContainer() {
             />
             <Card1
                 title={'Botas'}
-                text={'Las botas de boxeo son estrechas. Además, en la práctica de este deporte se pivota mucho, Por ello, a la hora de comprar tu bota de boxeo, es importante comprar media talla más que el calzado que usamos norm...'}
+                text={'Las botas de boxeo son estrechas. Además, en la práctica de este deporte se pivota mucho, Por ello, a la hora de comprar tu bota de boxeo, es importante comprar media talla más que el calza...'}
                 img={'https://imgs.search.brave.com/jSr0hjjZwdSpIspp0LEEU5SP_CIZf_zKQRKQWTZ2Yhw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9sZW9u/ZTE5NDcuZXMvd3At/Y29udGVudC91cGxv/YWRzLzIwMTkvMTEv/Q0wxMDFfMDFfMS5q/cGc'}
             />
         </div>
