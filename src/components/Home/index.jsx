@@ -31,7 +31,7 @@ function Home() {
                     </div> */}
                     <Section children={<CardsContainer />} />
                     {/* <Section title='Section 4' children={<CardsContainer />} /> */}
-                    <Section title='Section 5' children={<RingSection />} />
+                    <Section children={<RingSection />} />
                     <hr />
                     <Section children={<Form />} />
                 </div>

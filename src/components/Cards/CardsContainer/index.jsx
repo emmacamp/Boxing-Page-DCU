@@ -3,7 +3,7 @@ import Card1 from '../Card1'
 
 function CardsContainer() {
     return (
-        <div className="container d-flex ml-100">
+        <div className="container d-flex ml-100 flex-wrap">
             <Card1
                 title={'Guantes de Boxeo'}
                 text={`Se utilizan como medio de protección y recubren las manos de los boxeadores. Tienen también la función de suavizar un poco el golpe durante el combate reduciendo así la cantidad de heridas en el rostro.`}
