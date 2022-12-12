@@ -9,10 +9,10 @@ import Form from '../Form'
 
 const Section = ({ title = '', children }) => {
     return (
-        <div>
+        <section className='my-5'>
             <h1>{title}</h1>
             {children}
-        </div>
+        </section>
     )
 }
 
@@ -23,14 +23,17 @@ function Home() {
             <div className='container'>
                 <div style={{ margin: '10px' }}>
                     <Navbar />
-                    <section >
-                        <Carrousel />
-                        <CardsContainer />
-                    </section>
-                    <Section title='Section 2' children={<CenterSection />} />
-                    <Section title='Section 3' children={<CardsContainer />} />
-                    <Section title='Section 4' children={<RingSection />} />
-                    <Section title='Section 5' children={<Form />} />
+                    <div>'</div>
+                    <Section children={<Carrousel />} />
+                    <Section children={<CenterSection />} />
+                    {/* <div className="m-auto d-flex justify-content-center ">
+                        <img className='w-25 h-25' src="https://imgs.search.brave.com/QMLThUlsswzaMMMXXRffoNknm7w29FrjaHo3PeVJ1Iw/rs:fit:980:980:1/g:ce/aHR0cDovL2Nkbi5v/bmxpbmV3ZWJmb250/cy5jb20vc3ZnL2lt/Z181MzE0MjQucG5n" alt="" />
+                    </div> */}
+                    <Section children={<CardsContainer />} />
+                    {/* <Section title='Section 4' children={<CardsContainer />} /> */}
+                    <Section title='Section 5' children={<RingSection />} />
+                    <hr />
+                    <Section children={<Form />} />
                 </div>
             </div>
             <footer >

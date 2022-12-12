@@ -9,7 +9,7 @@ function Card1({ title, text, img }) {
                 <Card.Text >
                     <p className='text-justify text-secondary fs-6 lh-sm'>{text}</p>
                 </Card.Text>
-                <Button variant="primary">More info</Button>
+                <Button variant="">More info</Button>
             </Card.Body>
         </Card>
     );

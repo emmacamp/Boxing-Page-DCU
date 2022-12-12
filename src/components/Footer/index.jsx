@@ -16,7 +16,7 @@ const Footer = () => {
                 textAlign: "center",
                 marginTop: "-50px"
             }}>
-                GeeksforGeeks: A Computer Science Portal for Geeks
+                BOXX
             </h1>
             <Container>
                 <Row>
