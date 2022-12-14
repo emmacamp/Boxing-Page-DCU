@@ -1,4 +1,6 @@
 import * as React from 'react';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -15,6 +17,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SportsMmaIcon from '@mui/icons-material/SportsMma';
 import user from '../../assets/user.png';
+import Products from '../Products';
 
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -125,13 +128,11 @@ function ResponsiveAppBar() {
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
+                            <Button key={page} color="inherit" component={Link} to={page.toLowerCase()}>
                                 {page}
                             </Button>
+
+
                         ))}
                     </Box>
 
@@ -169,7 +170,7 @@ function ResponsiveAppBar() {
 
                 </Toolbar>
             </Container>
-        </AppBar>
+        </AppBar >
     );
 }
 export default ResponsiveAppBar;
