@@ -19,7 +19,7 @@ import SportsMmaIcon from '@mui/icons-material/SportsMma';
 import user from '../../assets/user.png';
 import Products from '../Products';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Productos', 'Nuestros Campeones'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 

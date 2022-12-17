@@ -4,21 +4,21 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Button } from '@mui/material'
 import Home from './components/Home'
 import Products from './components/Products'
+import NuestrosCampeones from '../src/components/NuestosCampeones'
 
-import reactLogo from './assets/react.svg'
 // import './App.css'
 
 
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products/*" element={<Products />} />
+          <Route path="/productos/*" element={<Products />} />
+          <Route path="/nuestros campeones/*" element={<NuestrosCampeones />} />
         </Routes>
       </BrowserRouter>
     </>
