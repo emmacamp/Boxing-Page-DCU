@@ -1,6 +1,6 @@
 import * as React from 'react';
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -13,17 +13,14 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SportsMmaIcon from '@mui/icons-material/SportsMma';
 import user from '../../assets/user.png';
-import Products from '../Products';
 
-const pages = ['Productos', 'Nuestros Campeones'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Home', 'Productos', 'Campeones', 'Usuarios'];
+const settings = [{ text: 'Home', nav: '/' }, { text: 'Registrarse', nav: '/register' }];
 
 
-function ResponsiveAppBar() {
+export const ResponsiveAppBar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -128,7 +125,7 @@ function ResponsiveAppBar() {
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
-                            <Button key={page} color="inherit" component={Link} to={page.toLowerCase()}>
+                            <Button key={page} color="inherit" component={Link} to={`/${page.toLowerCase()}`}>
                                 {page}
                             </Button>
 
@@ -161,16 +158,25 @@ function ResponsiveAppBar() {
                             onClose={handleCloseUserMenu}
                         >
                             {settings.map((setting) => (
-                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Typography textAlign="center">{setting}</Typography>
+                                <MenuItem key={setting.text} onClick={handleCloseUserMenu} component={Link} to={setting.nav}>
+                                    <Typography textAlign="center">{setting.text}</Typography>
                                 </MenuItem>
                             ))}
+
                         </Menu>
                     </Box>
-
                 </Toolbar>
             </Container>
         </AppBar >
     );
 }
 export default ResponsiveAppBar;
+
+
+/* 
+map((setting) => (
+                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                                    <Typography textAlign="center">{setting}</Typography>
+                                </MenuItem>
+                            ))}
+*/

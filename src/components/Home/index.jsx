@@ -7,7 +7,7 @@ import CenterSection from '../CenterSection'
 import RingSection from '../RingSection'
 import Form from '../Form'
 
-const Section = ({ title = '', children }) => {
+export const Section = ({ title = '', children }) => {
     return (
         <section className='my-5'>
             <h1>{title}</h1>
@@ -32,8 +32,8 @@ function Home() {
                     <Section children={<CardsContainer />} />
                     {/* <Section title='Section 4' children={<CardsContainer />} /> */}
                     <Section children={<RingSection />} />
-                    <hr />
-                    <Section children={<Form />} />
+                    {/* <hr /> */}
+                    {/* <Section children={<Form />} /> */}
                 </div>
             </div>
             <footer >

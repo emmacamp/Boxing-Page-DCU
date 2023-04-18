@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "type": "EVERLAST PRO STYLE 120 HAND WRAPS",
+      "brand": "EVERLAST",
+      "price": "$8.95",
+      "img": "https://i.ibb.co/PrGnGjm/guante-Azul.jpg"
+    },
+    {
+      "type": "LEONE 1947 CL188 BOTAS BOXE, UNISEX",
+      "brand": "LEONE",
+      "price": "$63.24",
+      "img": "https://imgs.search.brave.com/jSr0hjjZwdSpIspp0LEEU5SP_CIZf_zKQRKQWTZ2Yhw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9sZW9u/ZTE5NDcuZXMvd3At/Y29udGVudC91cGxv/YWRzLzIwMTkvMTEv/Q0wxMDFfMDFfMS5q/cGc"
+    },
+    {
+      "type": "Mytra Fusion 7-oz Mujeres Guantes MMA Palma ventilada Abierta Guantillas MMA",
+      "brand": "Mytra Fusion",
+      "price": "$85.55",
+      "img": "https://i.ibb.co/m5VCv6Y/13ab592406ea1be86df3a6f58e02df84f0d0cf3b.jpg"
+    },
+    {
+      "type": "EVERLAST PRO STYLE 120\" HAND WRAPS",
+      "brand": "EVERLAST",
+      "price": "$23.95",
+      "img": "https://i.ibb.co/g77tcYj/105d863cb292530b9ea0853489d96d0731120e4c.jpg"
+    },
+    {
+      "type": "Everlast 120\" Hand Wraps",
+      "brand": "Everlast",
+      "price": "$8.95",
+      "img": "https://i.ibb.co/tMbRyJx/benda.jpg"
+    },
+    {
+      "type": "Everlast 120\" Hand Wraps",
+      "brand": "Everlast",
+      "price": "$8.95",
+      "img": "https://i.ibb.co/P4k8gQv/e71f2319971b8c7132cb5593f512c6f3ad256660.jpg"
+    },
+    {
+      "type": "Everlast 120\" Hand Wraps",
+      "brand": "Everlast",
+      "price": "$8.95",
+      "img": "https://i.ibb.co/x84VrzF/ecd4a2163420cef790681d01f50cfa707179e5d6.jpg"
+    },
+    {
+      "type": "Everlast 120\" Hand Wraps",
+      "brand": "Everlast",
+      "price": "$8.95",
+      "img": "https://i.ibb.co/ZhS4PDD/ptotector-Bucal.jpg"
+    },
+    {
+      "type": "SuperPro Water-Air-Saco de Boxeo, Unisex Adulto",
+      "brand": "SuperPro",
+      "price": "$2.25",
+      "img": "https://i.ibb.co/G7jcwQ8/sacoKsy.jpg"
+    },
+    {
+      "type": "EVERLAST PRO STYLE 120\" HAND WRAPS",
+      "brand": "Everlast",
+      "price": "$21.54",
+      "img": "https://imgs.search.brave.com/JI4UQ5MPUxzAYDQM4FEnwA53Ttzn6jobInbvzLvznJY/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/aW1wYWN0b21lcmNl/ZGVzLmNvbS5hci93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8w/NS9sZW9uZS0xOTQ3/LWd1YW50ZXMtZGUt/Ym94ZW8tbW9kZWxv/LWZsYXNoLW5lZ3Jv/LW5lZ3JvLXRhbGxh/MTQtb3otMTUzNngx/NTM2LmpwZw"
+    },
+    {
+      "type": "EVERLAST PRO STYLE 120\" HAND WRAPS",
+      "brand": "Everlast",
+      "price": "$234.95",
+      "img": "https://i.ibb.co/G7jcwQ8/sacoKsy.jpg"
+    },
+    {
+      "type": "EVERLAST PRO STYLE 120\" HAND WRAPS",
+      "brand": "Everlast",
+      "price": "$84.95",
+      "img": "https://imgs.search.brave.com/LzLZVk3b9ftJtkjA-NaWeB-ER4RGmzt51kJvrLOhDm8/rs:fit:1024:1024:1/g:ce/aHR0cDovL2Nkbi5j/b29yZGl1dGlsLmNv/bS9pbWFnZW4tcGFu/dGFsb25ldGFfZGVf/Ym94ZW9fY2VudHVy/eS0xMzExMDU0LTAt/MC0wLTc1LmpwZw"
+    }
+  ]
+}

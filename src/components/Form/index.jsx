@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Swal from 'sweetalert2'
 
 
-function BasicExample() {
+export const CustumForm = () => {
 
     const alertError = () => {
         Swal.fire({
@@ -67,4 +67,4 @@ function BasicExample() {
     );
 }
 
-export default BasicExample;
+export default CustumForm;
